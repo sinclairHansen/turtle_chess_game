@@ -514,8 +514,8 @@ def reset1():
     bP7.goto(-130,210)
     bP8.goto(-70,210)
 
-
-screen.onkey(reset1(), "r")
+turtle.listen()
+screen.onkey(reset1, "r")
 
 
     
